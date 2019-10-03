@@ -2,8 +2,8 @@
 Hash: SHA256
 
 Emotet: Indicators of compromise
-Date: 2019-10-02
-TLP:WHITE
+Date: 2019-10-03
+TLP:WHITE - https://www.first.org/tlp/
 
 - -----------------------------------------------------
 
@@ -56,6 +56,19 @@ Emotet C2s
 181.57.102.203
 80.227.67.18
 67.225.229.55
+116.203.117.76
+108.166.188.146
+186.139.205.130
+95.216.207.86
+212.112.113.235
+74.208.74.92
+89.32.150.160
+76.69.29.42
+78.189.76.2
+201.199.93.30
+187.150.150.127
+192.254.173.31
+152.89.236.214
 
 
 Emotet PEs
@@ -1518,6 +1531,26 @@ bfcaa3d5a9d968989a985640c0aa83d68a79fee19934f183f3802d8d8a2f4f9b
 77b6cedaa329083b8ffad9183c88a1bfb4714ba6904ba8589b449e4edd1e7f69
 08ea72df32ef24a28e83567ad70a5c41f41d4e7e2836cff230153071c94d5fc0
 ed4532a4cfca2d06f30c964adfbcc6fc0215b3720caaa8f08919fff25103aa7d
+1064c5d678d7aa358ce5872c74f156fe4bdde53679278a269467a951529c4480
+1f7c9bbded671ebaf2d97f40d23fe19428a5fd341657215724cbea14988b4441
+23478e929c016a99852bc4451437ecff8681d835a12cb7330e68661e12280331
+2bd5d7c62082e2a7c836cdb3ac795a8edc0d4f35bb76990a1a54447ac91f6c7d
+357fcad8281b12908e772084fc478df8335c13d4f0f8b7f6309dad048d87fa5e
+3c3fec3cef9506c1e7d333a079384baa19b70f6ed56ec2f51485682543ac1235
+3dd6c8f5ec18337781fc3d24cd4574775df7a83a182328d8b4fa35597aed7c85
+431cbf05a7c29b540566c78f17afb4685e6deb405bb4ac4c2a989d81cfe4d68c
+4ba303cd51be7588cb1aefee98170dc1218d3a35a08cd420ae82ecd8ff247f6c
+4d8bae2ee60b4098a7ced9692639891bd99a26812d5638b3c68c7522fa35719c
+63ea9fa30c91a16c9d398a93826c43b0a054d2cc2618ecbfe63eefb6f2cd4d07
+71863485e81f279d8a33c2ca601a00bad2e939cb8e17355c9ebe36a3678f8b33
+7b41bc1da1373a48a558ae6c3514f6b4b7e5cb7935cc87b93f070fb961ddcde5
+8c39d7be781056ea1cf10b4ed0fa0106e4091fb6f419c141b49a3efc90a79b80
+8ca89a042cd42ae1f49533836724d081e337858f528b2daa531396fb9fbf9eb2
+b3249d27bc5804a7ed2b244f90d08a05717c08ee97b52c6b6e0c313b6b69a20f
+c36ca2447fc472f35efe3d39b1b609c032fb72621f3bc03b6efe79af2e153763
+f07474d7f1290784af3afd0536e91db496a535654170a6d96bb2e3fd5d77ce57
+f7591c6c0b2f3cdeec2c18f0122c4a485a29b6851e7bde68a76170ed236bf448
+fc771e698b0f41c2c705a4f15d4cde5b4a37c51d7aba18c7de05a75d4f0398fc
 
 Emotet PE Download URLs
 
@@ -1855,19 +1888,115 @@ https://www.converse8ion.com/css/xWwmRPmRn/
 https://finallysunday.com/wp-includes/tn1731zbz_k9c8iwga-43281/
 https://firstfinancesllc.com/wp-content/ImhOFBzE/
 https://www.ephemereparfum.com/---wp-content/languages/themes/b0285/
+
+http://almaei-hr.com/idol_wordpress/c6n2-g9a11-598783/
+http://azharsultan.com/wp-includes/e132n-m48mek-05
+http://azharsultan.com/wp-includes/e132n-m48mek-05/
+http://bahamazingislandtours.com/wp-admin/lgdf00100/
+http://beaunita.com/cgi-bin/pir5272/
+http://blog.myrenterhero.com/wp-content/3ti4iw_9qj2n25sb-92037/
+http://businesslawyers.draftservers.com/bv4flv4/WTKQjXtJ
+http://businesslawyers.draftservers.com/bv4flv4/WTKQjXtJ/
+http://casadaminhainfancia.com.br/wp-admin/fURMFMqZQs/
+http://cjb-law.com/wellsfargo_online2/cDncHuJLtBKu/c16
+http://cjb-law.com/wellsfargo_online2/cDncHuJLtBKu/c16/
+http://datatalentadvisors.com/wp-includes/2pz72
+http://datatalentadvisors.com/wp-includes/2pz72/
+http://dilandilan.com/wp-admin/l4zy_lntjocgxg-769120353
+http://dilandilan.com/wp-admin/l4zy_lntjocgxg-769120353/
+http://dsneng.com/engl/r3hjsdq82391
+http://dsneng.com/engl/r3hjsdq82391/
+http://encplaza.com/wp-admin/ZPQB39LFTKRBW/fvq6oqh2unuqj92r9nx09cgs_6vd0t8y7c-730172858357261/
+http://esonpac.com/wp-content/uploads/2019/n06e3rn9dl-js25x4agg-680/
+http://famfe.org/evrcooq/1cas6mr-69fzn-31
+http://famfe.org/evrcooq/1cas6mr-69fzn-31/
+http://geometrai.com/wp-content/YDelQRTyp/
+http://guiafacilpousoalegre.com/wp-includes/zkpv_xgydixh4-33209834
+http://hungthangphatcons.com/wp-content/cp7nc_zp4lcsp-0353805
+http://hungthangphatcons.com/wp-content/cp7nc_zp4lcsp-0353805/
+http://ilahiassociates.com/wp-admin/ILsSRsvJfS/
+http://iproinfotech.com/ufdgo/m9ts_iiiuh4-405768154/
+http://jiyuchen.club/wp-includes/CAeJonfGI/
+http://kaskazinimix.com/wp-includes/wvr7gpk-xavhqf1nxs-20049/
+http://kish-takhfifha.com/hgmt/IcJEZkgfl
+http://kish-takhfifha.com/hgmt/IcJEZkgfl/
+http://larissapharma.com/wp-admin/QAKtfjxz/
+http://loveafrofoods.com/tmp/ACSfLzehllAKWpgiEP/
+http://makeyourmarkonline.net/wp-includes/bkvl5ge-b44j-6280729114
+http://makeyourmarkonline.net/wp-includes/bkvl5ge-b44j-6280729114/
+http://mammothstraw.com/wp-admin/14t76_66uqo-53122714/
+http://nhadepkientruc.net/wp-content/ogi3nl90
+http://nhadepkientruc.net/wp-content/ogi3nl90/
+http://pinnacleclinic.com/others/9z7paz795
+http://prettywoman-cambodia.com/wp-includes/MtyZSfokpt/
+http://softwayvn.com/wp-content/ssv5cs_8nf8n6kf-4/
+http://soundlightsolutions.nl/cgi-bin/OshrdLWD/
+http://telemedics.co.tz/eric/YCGPYeyX/
+http://todofitnessperu.com/wp-admin/pRZlsRlfw/
+http://whiteboardeducation.com/ragujaecf/kd5gp4v05281/
+http://www.3idiotscommunication.com/cgi-bin/uc5/
+http://www.austellseafood.com/wp-includes/jb9jrq4882/
+http://www.cuisineontheroadspr.com/calendar/ziJXUCvH/
+http://www.dilandilan.com/wp-admin/l4zy_lntjocgxg-769120353
+http://www.dilandilan.com/wp-admin/l4zy_lntjocgxg-769120353/
+http://www.famfe.org/evrcooq/1cas6mr-69fzn-31/
+http://www.globalreddyfederation.com/ixlcx/w6178/
+http://www.iproinfotech.com/ufdgo/m9ts_iiiuh4-405768154/
+http://www.mammothstraw.com/wp-admin/14t76_66uqo-53122714/
+http://www.newuvolume2.com/lfq2zsr/iyclbvyc3-xiwo-82329/
+http://www.reposesionbancaria.com/wp-content/plugins/9f342
+http://www.reposesionbancaria.com/wp-content/plugins/9f342/
+http://www.sh-tradinggroup.com/cgi-bin/5g7o7p9629/
+http://www.thebloodhandmovie.com/whlpnx/n7700/
+https://arabaresmi.com/wzyp/fGRopmLJLS
+https://backyarddream.com/wp-includes/gj2oymhi5f-10sgbzkjag-440397/
+https://blog.myrenterhero.com/wp-content/3ti4iw_9qj2n25sb-92037/
+https://carina-barbera.com/wp-admin/w292/
+https://cjb-law.com/wellsfargo_online2/cDncHuJLtBKu/c16/
+https://creationhappened.org/wp-content/a49upl43x7_8q6ahrcjbf-1/
+https://eeistrategicconsulting.com/alfacgiapi/kWHTCUw
+https://eeistrategicconsulting.com/alfacgiapi/kWHTCUw/
+https://go.hellonews.site/test/NxVUZr/
+https://juice-dairy.com/wp-snapshots/pti210/
+https://makeyourmarkonline.net/wp-includes/bkvl5ge-b44j-6280729114/
+https://mediablade.com.ng/cgi-bin/uhOVLwFab/
+https://naijaclockwiseconcept.com/wp-admin/eg0dax86/
+https://nevanadesigns.com/npjcq/7jx-5760cgzlk-183302/
+https://nickelaction.com/wp-admin/qzlzi24_mg13l-227494731
+https://olivexchange.com/wp-includes/v92941/
+https://otomotifme.com/mdnh/3f1e16-4y58-4538/
+https://pensacqua.it/roawk/tun4_3v7h1nn5e1-68/
+https://promotions.pipette.com/wp-includes/99anv704/
+https://qirqle.com/wp-includes/zy2f473/
+https://radheshyamcityhomes.com/wp-admin/98qxp8-t9nxbq-67760685/
+https://rocsositeservices.com/masne/e3g4pxfm1swk1h7msphp_6gpsz-607942401959399/
+https://softwayvn.com/wp-content/ssv5cs_8nf8n6kf-4/
+https://sophieguaremas.com/sitehend/npktrS/
+https://tancoskert.hu/wp-includes/prcyny7fi_9wowhphm-428749/
+https://telemedics.co.tz/eric/YCGPYeyX/
+https://thelooptravels.com/wp-content/kHYJBg/
+https://www.datatalentadvisors.com/wp-includes/2pz72/
+https://www.esonpac.com/wp-content/uploads/2019/n06e3rn9dl-js25x4agg-680/
+https://www.ilahiassociates.com/wp-admin/ILsSRsvJfS/
+https://www.juriscoing.com/wp-includes/k86174
+https://www.juriscoing.com/wp-includes/k86174/
+https://www.mammothstraw.com/wp-admin/14t76_66uqo-53122714/
+https://www.nhadepkientruc.net/wp-content/ogi3nl90/
+https://www.todofitnessperu.com/wp-admin/pRZlsRlfw
+https://www.unidadejardins.maislaser.com.br/politica-de-privacidade/5s5-fxq4k-26612745/
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEETDLL//LYW+pnmK7SlZ3D5HrRpCcFAl2Ua9YACgkQlZ3D5HrR
-pCdHlxAAnyPAqKVzy3s/DafGNzzd9QRV5MX1JmwuNTluP34k8qgUeCzlfLKa05Jm
-bt+jtO4L5QWahflN5KH9755y7b8N6fCOvF4xmtFlK967Z+X6h4xotok7gO8+K5cA
-6EHzxDOC/dT4ZgG1cTfIyMyh/nYCt/AZ68irELuOjPzK8+pxKG2zCzfPN1E2fBnQ
-m/E9sVPn26YYg3hE+JRZm/PkZJGaA21HBVJRs0vq8vC4Nj2qs926o0cdoEelkEVY
-ikPVZ5TK0C19lW3EmErI9yFBu8UYyEtm2Pg9E7kYzvm99XpSdcuYxub/Ext2UcQM
-/RjBHBnT8ZHbDTLl8RGDOmuq8ngSVcJj65DHB6QQ06t8QI01IlposxOf2b6qCGx7
-Vg0LnJdyGMZ03iARi5TiSrhJqhFuGDQPgpFz971NuFKD2MQUkLAkiMvDpnubN5NN
-73/+NVjCJIgHs8yDlVXuvkmzzVuF0hy4SJDl0FyS8vYgDJ25r/w+1YahxWaTnJ72
-vWN+iEhoEELc1cQ+qB91CrRxRwd2fGBWXZvUBkngA36CxH6LrerMr12WTyozZaUY
-ruaYtgEZR8sQotg4N7UALnFlpEuNgINIlMWM6ydy5UXNKPtykzO95E3iK/zz9opg
-NSjysQHSNJ+IDpYL7ugJM3DAp98HhhjeKcZBf+5I9s+T2WZ2dPI=
-=MQp0
+iQIzBAEBCAAdFiEETDLL//LYW+pnmK7SlZ3D5HrRpCcFAl2VjwUACgkQlZ3D5HrR
+pCfVCg/+KhZGV4y4uBjuL+VHwX15ikl9YJw6/swKQGMf0AgBxfJsQHmm1wBOiHad
+KtI+UmD7CcxPDzQTwWcCWbyMk65D8crTnHs0UqpVRp2Q1ukyjRA3UogfxM2cXOIA
+4r+UZk3JUcqyk/Yslw8dgVN98e4IBIapGzoYXTzRg0cr6fk5aRM3MxnAC6H7p815
+vVRBbyQVFplBJCckMGHvF7jk6fy3M8AmYCL0/n7sK4c78G8GbC34Ckmi5ygHuZHA
+z9VWxrAW/AvucD0KASKEPpaR8vECBmJZM+A8HO9PjxMWUOB586OzIMMeHgJWho+w
+Hfl060bSeBG4B0MRii7DqYAwMH1PbRfpefibsr86kouKroa443wpkJ9R/K3Qd/Nw
+vspnbcpIkqrKEypNj9shorozNAffXvu3HtRz+Mjn8IbiNq/PLD2Lrk9LUcNWOnmd
+0dA0fFY85GKLtiNSgrRcCkxSu1mXcpLKs8DylmdD5P2ETxlsTZQ+7GJeThZptHir
+muqTdW7mupNIUy3NywUOw+EIfN9RNciaMMJ5XW/hRBmRatG5xdyvqpE8v/saiizK
+iQEKnn+coeCIhhHd/D9kFFldOj+BgZFsxuaQYuLX1ijxrIzuub1BEtDm2Uvn2PuZ
+TEgOYTHcKnssbqy8AACAdLAUZMfJMrcEHSZmTyEj8uyZbcnIdl0=
+=i/Zl
 -----END PGP SIGNATURE-----
