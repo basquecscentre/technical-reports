@@ -1,1 +1,1 @@
-Indicators of compromise
+Indicadores de compromiso
