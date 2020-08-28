@@ -1,0 +1,14 @@
+![](https://www.basquecybersecurity.eus/assets/img/logo1-default.png)
+
+This repository contains indicators of compromise related to Basque Cybersecurity Centre investigations and public reports.
+
+* `.yar` files are http://plusvic.github.io/yara/[Yara] rules
+* `.rules` files are http://snort.org/[Snort] rules
+* `samples.md5`, `samples.sha1` and `samples.sha256` files are newline
+  separated list of hexadecimal digests of malware samples
+* `samples.network`, files are newline separated list of network-based
+  indicators of compromise
+
+
+If you have found false positives contact us https://www.basquecybersecurity.eus/es/bcsc/contacto/
+  and we will try to improve our IOCs.
