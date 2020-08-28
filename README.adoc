@@ -1,4 +1,4 @@
-![](https://www.basquecybersecurity.eus/assets/img/logo1-default.png)
+image:https://www.basquecybersecurity.eus/assets/img/logo1-default.png, link=https://www.basquecybersecurity.eus]
 
 This repository contains indicators of compromise related to Basque Cybersecurity Centre investigations and public reports.
 
