@@ -5,9 +5,9 @@ This repository contains indicators of compromise related to Basque Cybersecurit
 * `.yar` files are http://plusvic.github.io/yara/[Yara] rules.
 * `.rules` files are http://snort.org/[Snort] rules.
 * `.yml` files are https://github.com/Neo23x0/sigma[Sigma] rules.
-* `samples.md5`, `samples.sha1` and `samples.sha256` files are newline
+* `iocs.md5`, `iocs.sha1` and `iocs.sha256` files are newline
   separated list of hexadecimal digests of malware samples.
-* `samples.network` files are newline separated list of network-based
+* `iocs.network` files are newline separated list of network-based
   indicators of compromise. All dots are replaced with [.] to avoid undesired risks.
 * `.svg` files are https://mitre-attack.github.io/attack-navigator/enterprise/[MITRE Att&ck Navigator] render images including tactics and techniques used by malware. 
 
