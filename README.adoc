@@ -8,8 +8,8 @@ This repository contains indicators of compromise related to Basque Cybersecurit
 * `samples.md5`, `samples.sha1` and `samples.sha256` files are newline
   separated list of hexadecimal digests of malware samples.
 * `samples.network` files are newline separated list of network-based
-  indicators of compromise. All . are replaced with [.] to avoid undesired risks.
+  indicators of compromise. All dots are replaced with [.] to avoid undesired risks.
 
 
-If you have found false positives contact us https://www.basquecybersecurity.eus/es/bcsc/contacto/
+If you have found false positives https://www.basquecybersecurity.eus/es/bcsc/contacto/[contact us]
   and we will try to improve our IOCs.
