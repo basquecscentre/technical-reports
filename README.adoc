@@ -9,6 +9,7 @@ This repository contains indicators of compromise related to Basque Cybersecurit
   separated list of hexadecimal digests of malware samples.
 * `samples.network` files are newline separated list of network-based
   indicators of compromise. All dots are replaced with [.] to avoid undesired risks.
+* `.svg` files are https://mitre-attack.github.io/attack-navigator/enterprise/[MITRE Att&ck Navigator] render images including tactics and techniques used by malware. 
 
 
 If you have found false positives https://www.basquecybersecurity.eus/es/bcsc/contacto/[contact us]
