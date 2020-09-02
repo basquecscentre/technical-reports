@@ -1,4 +1,4 @@
-rule Win32_Trojan_Emotet : tc_detection malicious
+rule Win32_Trojan_Emotet : tc_detection malicious 
 {
     meta:
 

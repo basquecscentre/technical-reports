@@ -8,9 +8,7 @@
 			"act"
 		],
 		"platforms": [
-			"Windows",
-			"Linux",
-			"macOS"
+			"Windows"
 		]
 	},
 	"sorting": 0,
