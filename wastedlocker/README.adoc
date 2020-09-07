@@ -1,0 +1,4 @@
+= WastedLocker
+
+A technical report of WastedLocker is available at our https://www.basquecybersecurity.eus/[website].
+

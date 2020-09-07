@@ -1,0 +1,509 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="1700.7187500000002" height="755.875" xmlns="http://www.w3.org/2000/svg" id="svgvm1">
+	<g transform="translate(5,5)" style="font-family: sans-serif;">
+		<g transform="translate(0,1)">
+			<g>
+				<g class="tactic initial-access" transform="translate(0, 0)">
+					<g class="techniques">
+						<g class="technique T1189" transform="translate(0, 57.375)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,0" fill="#6B7279" visibility="hidden"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="24.9375">Drive-by</tspan>
+								<tspan x="4" y="39.4375">Compromise</tspan>
+							</text>
+						</g>
+					</g>
+					<g class="subtechniques"/>
+					<g class="tactic-label">
+						<text font-size="12" fill="black" font-weight="bold">
+							<tspan text-anchor="middle" x="69.80031536697248" y="32.1875">Initial Access</tspan>
+						</text>
+					</g>
+				</g>
+				<g class="tactic execution" transform="translate(155.11181192660553, 0)">
+					<g class="techniques">
+						<g class="technique T1059" transform="translate(0, 57.375)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,12" fill="#6B7279" visibility="visible"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="17.520833333333332">Command and</tspan>
+								<tspan x="4" y="32.1875">Scripting</tspan>
+								<tspan x="4" y="46.854166666666664">Interpreter</tspan>
+							</text>
+						</g>
+						<g class="technique T1569" transform="translate(0, 229.5)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,12" fill="#6B7279" visibility="visible"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="32.1875">System Services</tspan>
+							</text>
+						</g>
+						<g class="technique T1204" transform="translate(0, 344.25)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,12" fill="#6B7279" visibility="visible"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="32.1875">User Execution</tspan>
+							</text>
+						</g>
+						<g class="technique T1047" transform="translate(0, 459)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,0" fill="#6B7279" visibility="hidden"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="17.520833333333332">Windows</tspan>
+								<tspan x="4" y="32.1875">Management</tspan>
+								<tspan x="4" y="46.854166666666664">Instrumentation</tspan>
+							</text>
+						</g>
+					</g>
+					<g class="subtechniques">
+						<g class="subtechnique T1059.001" transform="translate(15, 114.75)">
+							<rect class="cell" height="57.375" width="124.60063073394497" fill="white" stroke="#6B7279"/>
+							<rect class="cell" height="57.375" width="3" transform="translate(-3, 0)" fill="#6B7279" stroke="#6B7279"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="32.1875">PowerShell</tspan>
+							</text>
+						</g>
+						<g class="subtechnique T1059.007" transform="translate(15, 172.125)">
+							<rect class="cell" height="57.375" width="124.60063073394497" fill="white" stroke="#6B7279"/>
+							<rect class="cell" height="57.375" width="3" transform="translate(-3, 0)" fill="#6B7279" stroke="#6B7279"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="31.1875">JavaScript/JScript</tspan>
+							</text>
+						</g>
+						<g class="subtechnique T1569.002" transform="translate(15, 286.875)">
+							<rect class="cell" height="57.375" width="124.60063073394497" fill="white" stroke="#6B7279"/>
+							<rect class="cell" height="57.375" width="3" transform="translate(-3, 0)" fill="#6B7279" stroke="#6B7279"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="24.9375">Service</tspan>
+								<tspan x="4" y="39.4375">Execution</tspan>
+							</text>
+						</g>
+						<g class="subtechnique T1204.002" transform="translate(15, 401.625)">
+							<rect class="cell" height="57.375" width="124.60063073394497" fill="white" stroke="#6B7279"/>
+							<rect class="cell" height="57.375" width="3" transform="translate(-3, 0)" fill="#6B7279" stroke="#6B7279"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="32.1875">Malicious File</tspan>
+							</text>
+						</g>
+					</g>
+					<g class="tactic-label">
+						<text font-size="12" fill="black" font-weight="bold">
+							<tspan text-anchor="middle" x="69.80031536697248" y="32.1875">Execution</tspan>
+						</text>
+					</g>
+				</g>
+				<g class="tactic persistence" transform="translate(310.22362385321105, 0)">
+					<g class="techniques">
+						<g class="technique T1136" transform="translate(0, 57.375)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,12" fill="#6B7279" visibility="visible"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="32.1875">Create Account</tspan>
+							</text>
+						</g>
+					</g>
+					<g class="subtechniques">
+						<g class="subtechnique T1136.001" transform="translate(15, 114.75)">
+							<rect class="cell" height="57.375" width="124.60063073394497" fill="white" stroke="#6B7279"/>
+							<rect class="cell" height="57.375" width="3" transform="translate(-3, 0)" fill="#6B7279" stroke="#6B7279"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="32.1875">Local Account</tspan>
+							</text>
+						</g>
+					</g>
+					<g class="tactic-label">
+						<text font-size="12" fill="black" font-weight="bold">
+							<tspan text-anchor="middle" x="69.80031536697248" y="32.1875">Persistence</tspan>
+						</text>
+					</g>
+				</g>
+				<g class="tactic privilege-escalation" transform="translate(465.3354357798166, 0)">
+					<g class="techniques">
+						<g class="technique T1548" transform="translate(0, 57.375)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,12" fill="#6B7279" visibility="visible"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="17.520833333333332">Abuse Elevation</tspan>
+								<tspan x="4" y="32.1875">Control</tspan>
+								<tspan x="4" y="46.854166666666664">Mechanism</tspan>
+							</text>
+						</g>
+					</g>
+					<g class="subtechniques">
+						<g class="subtechnique T1548.002" transform="translate(15, 114.75)">
+							<rect class="cell" height="57.375" width="124.60063073394497" fill="white" stroke="#6B7279"/>
+							<rect class="cell" height="57.375" width="3" transform="translate(-3, 0)" fill="#6B7279" stroke="#6B7279"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="24.9375">Bypass User</tspan>
+								<tspan x="4" y="39.4375">Access Control</tspan>
+							</text>
+						</g>
+					</g>
+					<g class="tactic-label">
+						<text font-size="12" fill="black" font-weight="bold">
+							<tspan text-anchor="middle" x="69.80031536697248" y="24.9375">Privilege</tspan>
+							<tspan text-anchor="middle" x="69.80031536697248" y="39.4375">Escalation</tspan>
+						</text>
+					</g>
+				</g>
+				<g class="tactic defense-evasion" transform="translate(620.4472477064221, 0)">
+					<g class="techniques">
+						<g class="technique T1548" transform="translate(0, 57.375)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,12" fill="#6B7279" visibility="visible"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="17.520833333333332">Abuse Elevation</tspan>
+								<tspan x="4" y="32.1875">Control</tspan>
+								<tspan x="4" y="46.854166666666664">Mechanism</tspan>
+							</text>
+						</g>
+						<g class="technique T1564" transform="translate(0, 172.125)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,12" fill="#6B7279" visibility="visible"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="32.1875">Hide Artifacts</tspan>
+							</text>
+						</g>
+						<g class="technique T1562" transform="translate(0, 286.875)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,12" fill="#6B7279" visibility="visible"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="32.1875">Impair Defenses</tspan>
+							</text>
+						</g>
+						<g class="technique T1070" transform="translate(0, 401.625)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,12" fill="#6B7279" visibility="visible"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="24.9375">Indicator</tspan>
+								<tspan x="4" y="39.4375">Removal on Host</tspan>
+							</text>
+						</g>
+						<g class="technique T1027" transform="translate(0, 516.375)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,12" fill="#6B7279" visibility="visible"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="17.520833333333332">Obfuscated</tspan>
+								<tspan x="4" y="32.1875">Files or</tspan>
+								<tspan x="4" y="46.854166666666664">Information</tspan>
+							</text>
+						</g>
+						<g class="technique T1127" transform="translate(0, 631.125)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,12" fill="#6B7279" visibility="visible"/>
+							<text font-size="11.475000000000001" fill="black">
+								<tspan x="4" y="11.046875">Trusted</tspan>
+								<tspan x="4" y="25.140625">Developer</tspan>
+								<tspan x="4" y="39.234375">Utilities Proxy</tspan>
+								<tspan x="4" y="53.328125">Execution</tspan>
+							</text>
+						</g>
+					</g>
+					<g class="subtechniques">
+						<g class="subtechnique T1548.002" transform="translate(15, 114.75)">
+							<rect class="cell" height="57.375" width="124.60063073394497" fill="white" stroke="#6B7279"/>
+							<rect class="cell" height="57.375" width="3" transform="translate(-3, 0)" fill="#6B7279" stroke="#6B7279"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="24.9375">Bypass User</tspan>
+								<tspan x="4" y="39.4375">Access Control</tspan>
+							</text>
+						</g>
+						<g class="subtechnique T1564.004" transform="translate(15, 229.5)">
+							<rect class="cell" height="57.375" width="124.60063073394497" fill="white" stroke="#6B7279"/>
+							<rect class="cell" height="57.375" width="3" transform="translate(-3, 0)" fill="#6B7279" stroke="#6B7279"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="24.9375">NTFS File</tspan>
+								<tspan x="4" y="39.4375">Attributes</tspan>
+							</text>
+						</g>
+						<g class="subtechnique T1562.001" transform="translate(15, 344.25)">
+							<rect class="cell" height="57.375" width="124.60063073394497" fill="white" stroke="#6B7279"/>
+							<rect class="cell" height="57.375" width="3" transform="translate(-3, 0)" fill="#6B7279" stroke="#6B7279"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="24.9375">Disable or</tspan>
+								<tspan x="4" y="39.4375">Modify Tools</tspan>
+							</text>
+						</g>
+						<g class="subtechnique T1070.001" transform="translate(15, 459)">
+							<rect class="cell" height="57.375" width="124.60063073394497" fill="white" stroke="#6B7279"/>
+							<rect class="cell" height="57.375" width="3" transform="translate(-3, 0)" fill="#6B7279" stroke="#6B7279"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="24.9375">Clear Windows</tspan>
+								<tspan x="4" y="39.4375">Event Logs</tspan>
+							</text>
+						</g>
+						<g class="subtechnique T1027.004" transform="translate(15, 573.75)">
+							<rect class="cell" height="57.375" width="124.60063073394497" fill="white" stroke="#6B7279"/>
+							<rect class="cell" height="57.375" width="3" transform="translate(-3, 0)" fill="#6B7279" stroke="#6B7279"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="24.9375">Compile After</tspan>
+								<tspan x="4" y="39.4375">Delivery</tspan>
+							</text>
+						</g>
+						<g class="subtechnique T1127.001" transform="translate(15, 688.5)">
+							<rect class="cell" height="57.375" width="124.60063073394497" fill="white" stroke="#6B7279"/>
+							<rect class="cell" height="57.375" width="3" transform="translate(-3, 0)" fill="#6B7279" stroke="#6B7279"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="32.1875">MSBuild</tspan>
+							</text>
+						</g>
+					</g>
+					<g class="tactic-label">
+						<text font-size="12" fill="black" font-weight="bold">
+							<tspan text-anchor="middle" x="69.80031536697248" y="32.1875">Defense Evasion</tspan>
+						</text>
+					</g>
+				</g>
+				<g class="tactic credential-access" transform="translate(775.5590596330276, 0)">
+					<g class="techniques">
+						<g class="technique T1552" transform="translate(0, 57.375)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,12" fill="#6B7279" visibility="visible"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="24.9375">Unsecured</tspan>
+								<tspan x="4" y="39.4375">Credentials</tspan>
+							</text>
+						</g>
+					</g>
+					<g class="subtechniques">
+						<g class="subtechnique T1552.002" transform="translate(15, 114.75)">
+							<rect class="cell" height="57.375" width="124.60063073394497" fill="white" stroke="#6B7279"/>
+							<rect class="cell" height="57.375" width="3" transform="translate(-3, 0)" fill="#6B7279" stroke="#6B7279"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="24.9375">Credentials in</tspan>
+								<tspan x="4" y="39.4375">Registry</tspan>
+							</text>
+						</g>
+					</g>
+					<g class="tactic-label">
+						<text font-size="12" fill="black" font-weight="bold">
+							<tspan text-anchor="middle" x="69.80031536697248" y="24.9375">Credential</tspan>
+							<tspan text-anchor="middle" x="69.80031536697248" y="39.4375">Access</tspan>
+						</text>
+					</g>
+				</g>
+				<g class="tactic discovery" transform="translate(930.6708715596332, 0)">
+					<g class="techniques">
+						<g class="technique T1087" transform="translate(0, 57.375)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,12" fill="#6B7279" visibility="visible"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="24.9375">Account</tspan>
+								<tspan x="4" y="39.4375">Discovery</tspan>
+							</text>
+						</g>
+						<g class="technique T1057" transform="translate(0, 229.5)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,0" fill="#6B7279" visibility="hidden"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="24.9375">Process</tspan>
+								<tspan x="4" y="39.4375">Discovery</tspan>
+							</text>
+						</g>
+						<g class="technique T1018" transform="translate(0, 286.875)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,0" fill="#6B7279" visibility="hidden"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="24.9375">Remote System</tspan>
+								<tspan x="4" y="39.4375">Discovery</tspan>
+							</text>
+						</g>
+						<g class="technique T1082" transform="translate(0, 344.25)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,0" fill="#6B7279" visibility="hidden"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="17.520833333333332">System</tspan>
+								<tspan x="4" y="32.1875">Information</tspan>
+								<tspan x="4" y="46.854166666666664">Discovery</tspan>
+							</text>
+						</g>
+						<g class="technique T1033" transform="translate(0, 401.625)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,0" fill="#6B7279" visibility="hidden"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="17.520833333333332">System</tspan>
+								<tspan x="4" y="32.1875">Owner/User</tspan>
+								<tspan x="4" y="46.854166666666664">Discovery</tspan>
+							</text>
+						</g>
+					</g>
+					<g class="subtechniques">
+						<g class="subtechnique T1087.001" transform="translate(15, 114.75)">
+							<rect class="cell" height="57.375" width="124.60063073394497" fill="white" stroke="#6B7279"/>
+							<rect class="cell" height="57.375" width="3" transform="translate(-3, 0)" fill="#6B7279" stroke="#6B7279"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="32.1875">Local Account</tspan>
+							</text>
+						</g>
+						<g class="subtechnique T1087.002" transform="translate(15, 172.125)">
+							<rect class="cell" height="57.375" width="124.60063073394497" fill="white" stroke="#6B7279"/>
+							<rect class="cell" height="57.375" width="3" transform="translate(-3, 0)" fill="#6B7279" stroke="#6B7279"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="32.1875">Domain Account</tspan>
+							</text>
+						</g>
+					</g>
+					<g class="tactic-label">
+						<text font-size="12" fill="black" font-weight="bold">
+							<tspan text-anchor="middle" x="69.80031536697248" y="32.1875">Discovery</tspan>
+						</text>
+					</g>
+				</g>
+				<g class="tactic lateral-movement" transform="translate(1085.7826834862387, 0)">
+					<g class="techniques">
+						<g class="technique T1570" transform="translate(0, 57.375)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,0" fill="#6B7279" visibility="hidden"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="24.9375">Lateral Tool</tspan>
+								<tspan x="4" y="39.4375">Transfer</tspan>
+							</text>
+						</g>
+						<g class="technique T1021" transform="translate(0, 114.75)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,12" fill="#6B7279" visibility="visible"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="32.1875">Remote Services</tspan>
+							</text>
+						</g>
+					</g>
+					<g class="subtechniques">
+						<g class="subtechnique T1021.002" transform="translate(15, 172.125)">
+							<rect class="cell" height="57.375" width="124.60063073394497" fill="white" stroke="#6B7279"/>
+							<rect class="cell" height="57.375" width="3" transform="translate(-3, 0)" fill="#6B7279" stroke="#6B7279"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="24.9375">SMB/Windows</tspan>
+								<tspan x="4" y="39.4375">Admin Shares</tspan>
+							</text>
+						</g>
+					</g>
+					<g class="tactic-label">
+						<text font-size="12" fill="black" font-weight="bold">
+							<tspan text-anchor="middle" x="69.80031536697248" y="24.9375">Lateral</tspan>
+							<tspan text-anchor="middle" x="69.80031536697248" y="39.4375">Movement</tspan>
+						</text>
+					</g>
+				</g>
+				<g class="tactic collection" transform="translate(1240.8944954128442, 0)">
+					<g class="techniques">
+						<g class="technique T1113" transform="translate(0, 57.375)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,0" fill="#6B7279" visibility="hidden"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="32.1875">Screen Capture</tspan>
+							</text>
+						</g>
+					</g>
+					<g class="subtechniques"/>
+					<g class="tactic-label">
+						<text font-size="12" fill="black" font-weight="bold">
+							<tspan text-anchor="middle" x="69.80031536697248" y="32.1875">Collection</tspan>
+						</text>
+					</g>
+				</g>
+				<g class="tactic command-and-control" transform="translate(1396.0063073394497, 0)">
+					<g class="techniques">
+						<g class="technique T1071" transform="translate(0, 57.375)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,12" fill="#6B7279" visibility="visible"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="24.9375">Application</tspan>
+								<tspan x="4" y="39.4375">Layer Protocol</tspan>
+							</text>
+						</g>
+						<g class="technique T1573" transform="translate(0, 172.125)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,12" fill="#6B7279" visibility="visible"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="24.9375">Encrypted</tspan>
+								<tspan x="4" y="39.4375">Channel</tspan>
+							</text>
+						</g>
+					</g>
+					<g class="subtechniques">
+						<g class="subtechnique T1071.001" transform="translate(15, 114.75)">
+							<rect class="cell" height="57.375" width="124.60063073394497" fill="white" stroke="#6B7279"/>
+							<rect class="cell" height="57.375" width="3" transform="translate(-3, 0)" fill="#6B7279" stroke="#6B7279"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="32.1875">Web Protocols</tspan>
+							</text>
+						</g>
+						<g class="subtechnique T1573.002" transform="translate(15, 229.5)">
+							<rect class="cell" height="57.375" width="124.60063073394497" fill="white" stroke="#6B7279"/>
+							<rect class="cell" height="57.375" width="3" transform="translate(-3, 0)" fill="#6B7279" stroke="#6B7279"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="24.9375">Asymmetric</tspan>
+								<tspan x="4" y="39.4375">Cryptography</tspan>
+							</text>
+						</g>
+					</g>
+					<g class="tactic-label">
+						<text font-size="12" fill="black" font-weight="bold">
+							<tspan text-anchor="middle" x="69.80031536697248" y="24.9375">Command and</tspan>
+							<tspan text-anchor="middle" x="69.80031536697248" y="39.4375">Control</tspan>
+						</text>
+					</g>
+				</g>
+				<g class="tactic impact" transform="translate(1551.1181192660551, 0)">
+					<g class="techniques">
+						<g class="technique T1485" transform="translate(0, 57.375)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,0" fill="#6B7279" visibility="hidden"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="24.9375">Data</tspan>
+								<tspan x="4" y="39.4375">Destruction</tspan>
+							</text>
+						</g>
+						<g class="technique T1486" transform="translate(0, 114.75)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,0" fill="#6B7279" visibility="hidden"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="24.9375">Data Encrypted</tspan>
+								<tspan x="4" y="39.4375">for Impact</tspan>
+							</text>
+						</g>
+						<g class="technique T1565" transform="translate(0, 172.125)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,12" fill="#6B7279" visibility="visible"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="24.9375">Data</tspan>
+								<tspan x="4" y="39.4375">Manipulation</tspan>
+							</text>
+						</g>
+						<g class="technique T1490" transform="translate(0, 286.875)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,0" fill="#6B7279" visibility="hidden"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="24.9375">Inhibit System</tspan>
+								<tspan x="4" y="39.4375">Recovery</tspan>
+							</text>
+						</g>
+						<g class="technique T1489" transform="translate(0, 344.25)">
+							<rect class="cell" height="57.375" width="139.60063073394497" fill="#dadaeb" stroke="#6B7279"/>
+							<polygon class="sidebar" transform="translate(0, 57.375)" points="0,0 12,0 12,0" fill="#6B7279" visibility="hidden"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="32.1875">Service Stop</tspan>
+							</text>
+						</g>
+					</g>
+					<g class="subtechniques">
+						<g class="subtechnique T1565.001" transform="translate(15, 229.5)">
+							<rect class="cell" height="57.375" width="124.60063073394497" fill="white" stroke="#6B7279"/>
+							<rect class="cell" height="57.375" width="3" transform="translate(-3, 0)" fill="#6B7279" stroke="#6B7279"/>
+							<text font-size="12" fill="black">
+								<tspan x="4" y="24.9375">Stored Data</tspan>
+								<tspan x="4" y="39.4375">Manipulation</tspan>
+							</text>
+						</g>
+					</g>
+					<g class="tactic-label">
+						<text font-size="12" fill="black" font-weight="bold">
+							<tspan text-anchor="middle" x="69.80031536697248" y="32.1875">Impact</tspan>
+						</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
