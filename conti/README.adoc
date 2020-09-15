@@ -1,4 +1,4 @@
-= EKANS
+= CONTI Ransomware
  
 A technical report of CONTI is available at our https://www.basquecybersecurity.eus/[website].
 
