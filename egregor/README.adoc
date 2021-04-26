@@ -1,0 +1,4 @@
+= Egregor Ransomware
+ 
+A technical report of Egregor is available at our https://www.basquecybersecurity.eus/[website].
+
