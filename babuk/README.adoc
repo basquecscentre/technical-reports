@@ -1,0 +1,4 @@
+= Babuk Ransomware
+ 
+A technical report of Babuk is available at our https://www.basquecybersecurity.eus/[website].
+
