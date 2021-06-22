@@ -1,0 +1,4 @@
+= ProLock
+ 
+A technical report of ProLock is available at our https://www.basquecybersecurity.eus/[website].
+
