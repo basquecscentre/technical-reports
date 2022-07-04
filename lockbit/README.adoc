@@ -1,0 +1,4 @@
+= LOCKBIT
+ 
+A technical report of LOCKBIT is available at our https://www.basquecybersecurity.eus/[website].
+
