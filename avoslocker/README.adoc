@@ -1,0 +1,4 @@
+= AvosLocker
+ 
+A technical report of AvosLocker is available at our https://www.basquecybersecurity.eus/[website].
+
