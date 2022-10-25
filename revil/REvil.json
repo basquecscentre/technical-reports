@@ -2,8 +2,8 @@
 	"name": "REvil",
 	"versions": {
 		"attack": "8",
-		"navigator": "4.1",
-		"layer": "4.1"
+		"navigator": "4.6.6",
+		"layer": "4.3"
 	},
 	"domain": "enterprise-attack",
 	"description": "",
@@ -14,9 +14,7 @@
 			"Windows",
 			"Office 365",
 			"Azure AD",
-			"AWS",
-			"GCP",
-			"Azure",
+			"IaaS",
 			"SaaS",
 			"PRE",
 			"Network"
@@ -25,8 +23,11 @@
 	"sorting": 0,
 	"layout": {
 		"layout": "side",
+		"aggregateFunction": "average",
 		"showID": false,
-		"showName": true
+		"showName": true,
+		"showAggregateScores": false,
+		"countUnscored": false
 	},
 	"hideDisabled": true,
 	"techniques": [
@@ -37,6 +38,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -46,6 +48,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -55,6 +58,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -64,6 +68,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -73,6 +78,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -82,6 +88,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -91,6 +98,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -100,6 +108,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -109,6 +118,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -118,6 +128,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -127,7 +138,8 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
-			"showSubtechniques": true
+			"links": [],
+			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1134",
@@ -136,6 +148,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -145,6 +158,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -154,6 +168,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -163,6 +178,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -172,6 +188,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -181,6 +198,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -190,6 +208,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -199,6 +218,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -208,6 +228,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -217,6 +238,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -226,6 +248,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -235,6 +258,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -244,6 +268,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -253,6 +278,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -262,6 +288,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -271,6 +298,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -280,6 +308,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -289,6 +318,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -298,6 +328,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -307,6 +338,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -316,6 +348,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -325,6 +358,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -334,6 +368,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -343,6 +378,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -352,6 +388,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -361,6 +398,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -370,6 +408,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -379,6 +418,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -388,7 +428,8 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
-			"showSubtechniques": true
+			"links": [],
+			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1071.002",
@@ -397,6 +438,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -406,6 +448,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -415,6 +458,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -424,6 +468,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -433,6 +478,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -442,6 +488,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -451,6 +498,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -460,6 +508,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -469,6 +518,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -478,6 +528,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -487,6 +538,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -496,6 +548,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -505,6 +558,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -514,6 +568,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -523,6 +578,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -532,6 +588,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -541,6 +598,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -550,6 +608,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -559,6 +618,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -568,6 +628,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -577,6 +638,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -586,6 +648,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -595,6 +658,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -604,6 +668,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -613,6 +678,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -622,6 +688,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -631,6 +698,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -640,6 +708,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -649,6 +718,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -658,6 +728,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -667,6 +738,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -676,6 +748,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -685,6 +758,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -694,6 +768,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -703,6 +778,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -712,6 +788,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -721,6 +798,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -730,6 +808,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -739,6 +818,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -748,6 +828,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -757,6 +838,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -766,6 +848,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -775,6 +858,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -784,6 +868,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -793,6 +878,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -802,6 +888,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -811,6 +898,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -820,6 +908,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -829,6 +918,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -838,6 +928,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -847,6 +938,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -856,6 +948,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -865,6 +958,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -874,6 +968,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -883,6 +978,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -892,6 +988,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -901,6 +998,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -910,6 +1008,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -919,6 +1018,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -928,6 +1028,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -937,6 +1038,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -946,6 +1048,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -955,6 +1058,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -964,6 +1068,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -973,6 +1078,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -982,6 +1088,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -991,6 +1098,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1000,6 +1108,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1009,6 +1118,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1018,6 +1128,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1027,6 +1138,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1036,6 +1148,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1045,6 +1158,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1054,6 +1168,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1063,6 +1178,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1072,6 +1188,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1081,6 +1198,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1090,6 +1208,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1099,6 +1218,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1108,6 +1228,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1117,6 +1238,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1126,6 +1248,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1135,6 +1258,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1144,6 +1268,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1153,6 +1278,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1162,6 +1288,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1171,6 +1298,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1180,6 +1308,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1189,6 +1318,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1198,6 +1328,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1207,6 +1338,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1216,6 +1348,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1225,6 +1358,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1234,6 +1368,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1243,6 +1378,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1252,6 +1388,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1261,6 +1398,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1270,6 +1408,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1279,6 +1418,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1288,6 +1428,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1297,6 +1438,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1306,6 +1448,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1315,6 +1458,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1324,6 +1468,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1333,6 +1478,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1342,6 +1488,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1351,6 +1498,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1360,6 +1508,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1369,6 +1518,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1378,6 +1528,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1387,6 +1538,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1396,6 +1548,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1405,6 +1558,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1414,6 +1568,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1423,6 +1578,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1432,6 +1588,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1441,6 +1598,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1450,6 +1608,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1459,6 +1618,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1468,6 +1628,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1477,6 +1638,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1486,6 +1648,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1495,6 +1658,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1504,6 +1668,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1513,6 +1678,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1522,6 +1688,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1531,6 +1698,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1540,6 +1708,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1549,6 +1718,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1558,6 +1728,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1567,6 +1738,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1576,6 +1748,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1585,6 +1758,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1594,6 +1768,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1603,6 +1778,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1612,6 +1788,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1621,6 +1798,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1630,6 +1808,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1639,6 +1818,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1648,6 +1828,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1657,6 +1838,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1666,6 +1848,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1675,6 +1858,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1684,6 +1868,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1693,6 +1878,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1702,6 +1888,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1711,6 +1898,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1720,6 +1908,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1729,6 +1918,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1738,7 +1928,8 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
-			"showSubtechniques": true
+			"links": [],
+			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1573.001",
@@ -1747,6 +1938,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1756,6 +1948,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1765,6 +1958,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1774,6 +1968,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1783,6 +1978,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1792,6 +1988,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1801,6 +1998,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1810,6 +2008,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1819,6 +2018,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1828,6 +2028,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1837,6 +2038,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1846,6 +2048,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1855,6 +2058,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1864,6 +2068,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1873,6 +2078,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1882,6 +2088,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1891,6 +2098,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1900,6 +2108,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1909,6 +2118,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1918,6 +2128,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1927,6 +2138,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1936,6 +2148,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1945,6 +2158,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1954,6 +2168,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1963,6 +2178,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1972,6 +2188,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1981,6 +2198,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1990,6 +2208,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1999,6 +2218,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2008,6 +2228,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2017,6 +2238,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2026,6 +2248,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2035,6 +2258,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2044,6 +2268,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2053,6 +2278,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2062,6 +2288,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2071,6 +2298,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2080,6 +2308,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2089,6 +2318,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2098,6 +2328,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2107,6 +2338,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2116,6 +2348,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2125,6 +2358,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2134,6 +2368,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2143,6 +2378,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2152,6 +2388,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2161,6 +2398,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2170,6 +2408,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2179,6 +2418,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2188,6 +2428,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2197,6 +2438,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2206,6 +2448,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2215,6 +2458,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2224,6 +2468,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2233,6 +2478,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2242,6 +2488,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2251,6 +2498,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2260,6 +2508,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2269,6 +2518,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2278,6 +2528,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2287,6 +2538,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2296,6 +2548,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2305,6 +2558,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2314,6 +2568,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2323,6 +2578,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2332,6 +2588,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2341,6 +2598,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2350,6 +2608,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2359,6 +2618,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2368,6 +2628,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2377,6 +2638,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2386,6 +2648,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2395,6 +2658,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2404,6 +2668,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2413,6 +2678,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2422,6 +2688,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2431,6 +2698,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2440,6 +2708,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2449,6 +2718,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2458,6 +2728,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2467,6 +2738,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2476,6 +2748,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2485,6 +2758,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2494,6 +2768,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2503,6 +2778,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2512,6 +2788,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2521,6 +2798,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2530,6 +2808,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2539,6 +2818,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2548,6 +2828,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2557,6 +2838,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2566,6 +2848,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2575,7 +2858,8 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
-			"showSubtechniques": false
+			"links": [],
+			"showSubtechniques": true
 		},
 		{
 			"techniqueID": "T1200",
@@ -2584,6 +2868,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2593,6 +2878,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2602,6 +2888,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2611,6 +2898,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2620,6 +2908,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2629,6 +2918,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2638,6 +2928,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2647,6 +2938,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2656,6 +2948,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2665,6 +2958,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2674,6 +2968,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2683,6 +2978,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2692,6 +2988,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2701,6 +2998,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2710,6 +3008,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2719,6 +3018,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2728,6 +3028,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2737,6 +3038,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2746,6 +3048,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2755,6 +3058,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2764,6 +3068,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2773,6 +3078,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2782,6 +3088,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2791,6 +3098,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2800,6 +3108,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2809,6 +3118,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2818,6 +3128,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2827,6 +3138,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2836,6 +3148,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2845,6 +3158,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2854,6 +3168,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2863,6 +3178,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2872,6 +3188,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2881,6 +3198,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2890,6 +3208,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2899,6 +3218,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2908,6 +3228,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2917,6 +3238,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2926,6 +3248,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2935,6 +3258,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2944,6 +3268,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2953,6 +3278,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2962,6 +3288,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2971,6 +3298,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2980,6 +3308,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2989,7 +3318,8 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
-			"showSubtechniques": true
+			"links": [],
+			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1562.002",
@@ -2998,6 +3328,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3007,6 +3338,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3016,6 +3348,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3025,6 +3358,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3034,6 +3368,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3043,6 +3378,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3052,6 +3388,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3061,7 +3398,8 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
-			"showSubtechniques": true
+			"links": [],
+			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1070.001",
@@ -3070,6 +3408,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3079,6 +3418,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3088,6 +3428,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3097,6 +3438,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3106,6 +3448,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3115,6 +3458,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3124,6 +3468,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3133,6 +3478,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3142,6 +3488,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3151,6 +3498,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3160,6 +3508,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3169,6 +3518,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3178,6 +3528,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3187,6 +3538,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3196,6 +3548,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3205,6 +3558,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3214,6 +3568,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3223,6 +3578,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3232,6 +3588,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3241,6 +3598,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3250,6 +3608,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3259,6 +3618,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3268,6 +3628,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3277,6 +3638,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3286,6 +3648,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3295,6 +3658,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3304,6 +3668,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3313,6 +3678,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3322,6 +3688,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3331,6 +3698,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3340,7 +3708,8 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
-			"showSubtechniques": true
+			"links": [],
+			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1036.001",
@@ -3349,6 +3718,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3358,6 +3728,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3367,6 +3738,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3376,6 +3748,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3385,6 +3758,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3394,6 +3768,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3403,6 +3778,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3412,6 +3788,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3421,6 +3798,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3430,6 +3808,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3439,6 +3818,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3448,6 +3828,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3457,6 +3838,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3466,6 +3848,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3475,6 +3858,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3484,6 +3868,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3493,6 +3878,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3502,6 +3888,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3511,6 +3898,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3520,6 +3908,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3529,6 +3918,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3538,6 +3928,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3547,6 +3938,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3556,6 +3948,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3565,6 +3958,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3574,6 +3968,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3583,6 +3978,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3592,6 +3988,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3601,6 +3998,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3610,6 +4008,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3619,6 +4018,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3628,6 +4028,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3637,6 +4038,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3646,6 +4048,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3655,6 +4058,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3664,6 +4068,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3673,6 +4078,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3682,6 +4088,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3691,6 +4098,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3700,6 +4108,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3709,6 +4118,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3718,6 +4128,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3727,6 +4138,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3736,6 +4148,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3745,6 +4158,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3754,6 +4168,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3763,6 +4178,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3772,6 +4188,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3781,6 +4198,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3790,6 +4208,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3799,6 +4218,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3808,6 +4228,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3817,6 +4238,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3826,6 +4248,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3835,6 +4258,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3844,6 +4268,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3853,6 +4278,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3862,6 +4288,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3871,6 +4298,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3880,6 +4308,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3889,6 +4318,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3898,6 +4328,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3907,6 +4338,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3916,6 +4348,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3925,6 +4358,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3934,6 +4368,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3943,6 +4378,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3952,6 +4388,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3961,7 +4398,8 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
-			"showSubtechniques": true
+			"links": [],
+			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1069.003",
@@ -3970,6 +4408,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3979,6 +4418,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3988,6 +4428,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3997,6 +4438,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4006,6 +4448,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4015,6 +4458,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4024,6 +4468,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4033,6 +4478,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4042,6 +4488,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4051,6 +4498,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4060,6 +4508,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4069,6 +4518,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4078,6 +4528,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4087,6 +4538,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4096,6 +4548,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4105,6 +4558,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4114,6 +4568,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4123,6 +4578,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4132,6 +4588,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4141,6 +4598,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4150,6 +4608,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4159,6 +4618,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4168,6 +4628,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4177,6 +4638,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4186,6 +4648,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4195,6 +4658,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4204,6 +4668,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4213,6 +4678,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4222,6 +4688,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4231,6 +4698,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4240,6 +4708,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4249,6 +4718,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4258,6 +4728,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4267,6 +4738,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4276,6 +4748,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4285,6 +4758,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4294,6 +4768,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4303,6 +4778,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4312,6 +4788,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4321,6 +4798,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4330,6 +4808,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4339,6 +4818,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4348,6 +4828,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4357,6 +4838,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4366,6 +4848,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4375,6 +4858,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4384,6 +4868,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4393,6 +4878,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4402,6 +4888,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4411,6 +4898,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4420,6 +4908,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4429,6 +4918,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4438,6 +4928,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4447,6 +4938,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4456,6 +4948,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4465,6 +4958,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4474,6 +4968,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4483,6 +4978,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4492,6 +4988,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4501,6 +4998,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4510,6 +5008,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4519,6 +5018,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4528,6 +5028,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4537,6 +5038,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4546,6 +5048,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4555,6 +5058,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4564,6 +5068,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4573,6 +5078,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4582,6 +5088,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4591,6 +5098,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4600,6 +5108,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4609,6 +5118,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4618,6 +5128,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4627,6 +5138,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4636,6 +5148,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4645,6 +5158,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4654,6 +5168,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4663,6 +5178,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4672,6 +5188,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4681,6 +5198,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4690,6 +5208,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4699,6 +5218,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4708,6 +5228,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4717,6 +5238,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4726,6 +5248,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4735,6 +5258,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4744,6 +5268,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4753,6 +5278,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4762,6 +5288,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4771,6 +5298,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4780,6 +5308,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4789,6 +5318,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4798,6 +5328,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4807,6 +5338,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4816,6 +5348,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4825,6 +5358,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4834,6 +5368,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4843,6 +5378,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4852,6 +5388,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4861,6 +5398,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4870,6 +5408,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4879,6 +5418,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4888,6 +5428,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4897,6 +5438,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4906,6 +5448,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4915,6 +5458,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4924,6 +5468,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4933,6 +5478,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4942,6 +5488,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4951,6 +5498,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4960,6 +5508,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4969,6 +5518,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4978,6 +5528,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4987,6 +5538,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4996,6 +5548,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5005,6 +5558,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5014,6 +5568,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5023,6 +5578,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5032,6 +5588,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5041,6 +5598,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5050,6 +5608,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5059,6 +5618,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5068,6 +5628,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5077,6 +5638,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5086,6 +5648,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5095,6 +5658,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5104,6 +5668,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5113,6 +5678,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5122,6 +5688,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5131,6 +5698,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5140,6 +5708,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5149,6 +5718,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5158,6 +5728,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5167,6 +5738,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5176,6 +5748,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5185,6 +5758,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5194,6 +5768,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5203,6 +5778,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5212,6 +5788,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5221,6 +5798,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5230,6 +5808,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5239,6 +5818,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5248,6 +5828,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5257,6 +5838,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5266,6 +5848,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5275,6 +5858,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5284,6 +5868,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5293,6 +5878,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5302,6 +5888,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5311,6 +5898,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5320,6 +5908,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5329,6 +5918,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5338,6 +5928,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5347,6 +5938,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5356,6 +5948,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5365,6 +5958,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5374,6 +5968,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5383,6 +5978,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5392,6 +5988,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5401,6 +5998,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5410,6 +6008,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5419,6 +6018,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5428,6 +6028,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5437,6 +6038,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5446,6 +6048,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5455,6 +6058,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5464,6 +6068,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5473,6 +6078,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5482,6 +6088,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5491,6 +6098,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5500,6 +6108,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5509,6 +6118,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5518,6 +6128,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5527,6 +6138,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5536,6 +6148,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5545,6 +6158,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5554,6 +6168,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5563,6 +6178,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5572,6 +6188,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5581,6 +6198,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5590,6 +6208,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5599,6 +6218,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5608,6 +6228,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5617,6 +6238,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5626,6 +6248,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5635,6 +6258,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5644,6 +6268,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5653,6 +6278,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5662,6 +6288,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5671,6 +6298,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5680,6 +6308,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5689,6 +6318,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5698,6 +6328,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5707,6 +6338,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5716,6 +6348,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5725,6 +6358,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5734,6 +6368,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5743,6 +6378,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5752,6 +6388,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5761,6 +6398,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5770,6 +6408,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5779,6 +6418,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5788,6 +6428,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5797,6 +6438,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5806,6 +6448,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5815,6 +6458,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5824,6 +6468,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5833,6 +6478,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5842,6 +6488,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5851,6 +6498,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5860,6 +6508,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5869,6 +6518,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5878,6 +6528,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5887,6 +6538,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5896,6 +6548,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5905,6 +6558,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5914,6 +6568,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5923,6 +6578,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5932,6 +6588,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5941,6 +6598,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5950,6 +6608,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5959,6 +6618,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5968,6 +6628,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5977,6 +6638,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5986,6 +6648,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5995,22 +6658,254 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1134.002",
+			"tactic": "defense-evasion",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1134.002",
+			"tactic": "privilege-escalation",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1134.001",
+			"tactic": "defense-evasion",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1134.001",
+			"tactic": "privilege-escalation",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1071.001",
+			"tactic": "command-and-control",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1059.001",
+			"tactic": "execution",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1059.005",
+			"tactic": "execution",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1059.003",
+			"tactic": "execution",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1573.002",
+			"tactic": "command-and-control",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1562.001",
+			"tactic": "defense-evasion",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1070.004",
+			"tactic": "defense-evasion",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1036.005",
+			"tactic": "defense-evasion",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1069.002",
+			"tactic": "discovery",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1566.001",
+			"tactic": "initial-access",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1566.002",
+			"tactic": "initial-access",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1204.002",
+			"tactic": "execution",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1484.002",
+			"tactic": "defense-evasion",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1484.002",
+			"tactic": "privilege-escalation",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1484.001",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1484.001",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1606",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1606.001",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1606.002",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		}
 	],
 	"gradient": {
 		"colors": [
-			"#ff6666",
-			"#ffe766",
-			"#8ec843"
+			"#ff6666ff",
+			"#ffe766ff",
+			"#8ec843ff"
 		],
 		"minValue": 0,
 		"maxValue": 100
 	},
 	"legendItems": [],
 	"metadata": [],
+	"links": [],
 	"showTacticRowBackground": false,
 	"tacticRowBackground": "#dddddd",
-	"selectTechniquesAcrossTactics": true,
+	"selectTechniquesAcrossTactics": false,
 	"selectSubtechniquesWithParent": false
 }

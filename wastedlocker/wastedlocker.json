@@ -1,12 +1,13 @@
 {
-	"name": "wastedlocker",
-	"version": "3.0",
-	"domain": "mitre-enterprise",
+	"name": "Wastedlocker",
+	"versions": {
+		"attack": "11",
+		"navigator": "4.6.6",
+		"layer": "4.3"
+	},
+	"domain": "enterprise-attack",
 	"description": "",
 	"filters": {
-		"stages": [
-			"act"
-		],
 		"platforms": [
 			"Windows",
 			"Linux",
@@ -16,8 +17,11 @@
 	"sorting": 0,
 	"layout": {
 		"layout": "side",
+		"aggregateFunction": "average",
 		"showID": false,
-		"showName": true
+		"showName": true,
+		"showAggregateScores": false,
+		"countUnscored": false
 	},
 	"hideDisabled": true,
 	"techniques": [
@@ -28,6 +32,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -37,6 +42,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -46,6 +52,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -55,6 +62,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -64,6 +72,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -73,6 +82,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -82,6 +92,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -91,6 +102,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -100,6 +112,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -109,6 +122,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -118,6 +132,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -127,6 +142,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -136,6 +152,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -145,6 +162,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -154,6 +172,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -163,6 +182,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -172,6 +192,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -181,6 +202,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -190,6 +212,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -199,6 +222,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -208,6 +232,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -217,6 +242,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -226,6 +252,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -235,6 +262,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -244,6 +272,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -253,6 +282,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -262,6 +292,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -271,6 +302,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -280,6 +312,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -289,6 +322,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -298,6 +332,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -307,6 +342,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -316,6 +352,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -325,6 +362,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -334,6 +372,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -343,6 +382,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -352,6 +392,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -361,6 +402,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -370,6 +412,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -379,6 +422,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -388,6 +432,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -397,6 +442,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -406,6 +452,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -415,6 +462,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -424,6 +472,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -433,6 +482,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -442,6 +492,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -451,6 +502,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -460,6 +512,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -469,6 +522,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -478,6 +532,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -487,6 +542,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -496,6 +552,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -505,6 +562,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -514,6 +572,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -523,6 +582,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -532,6 +592,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -541,6 +602,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -550,6 +612,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -559,6 +622,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -568,6 +632,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -577,6 +642,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -586,6 +652,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -595,6 +662,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -604,6 +672,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -613,6 +682,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -622,6 +692,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -631,6 +702,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -640,6 +712,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -649,6 +722,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -658,6 +732,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -667,6 +742,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -676,6 +752,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -685,6 +762,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -694,6 +772,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -703,6 +782,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -712,6 +792,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -721,6 +802,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -730,6 +812,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -739,6 +822,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -748,6 +832,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -757,6 +842,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -766,6 +852,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -775,6 +862,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -784,6 +872,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -793,6 +882,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -802,6 +892,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -811,6 +902,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -820,6 +912,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -829,6 +922,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -838,6 +932,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -847,6 +942,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -856,6 +952,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -865,6 +962,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -874,6 +972,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -883,6 +982,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -892,6 +992,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -901,6 +1002,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -910,6 +1012,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -919,6 +1022,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -928,6 +1032,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -937,6 +1042,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -946,6 +1052,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -955,6 +1062,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -964,6 +1072,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -973,6 +1082,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -982,6 +1092,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -991,6 +1102,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1000,6 +1112,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1009,6 +1122,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1018,6 +1132,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1027,6 +1142,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1036,6 +1152,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1045,6 +1162,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1054,6 +1172,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1063,6 +1182,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1072,6 +1192,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1081,6 +1202,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1090,6 +1212,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1099,6 +1222,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1108,6 +1232,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1117,6 +1242,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1126,6 +1252,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1135,6 +1262,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1144,6 +1272,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1153,6 +1282,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1162,6 +1292,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1171,6 +1302,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1180,6 +1312,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1189,6 +1322,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1198,6 +1332,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1207,6 +1342,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1216,6 +1352,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1225,6 +1362,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1234,6 +1372,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1243,6 +1382,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1252,6 +1392,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1261,6 +1402,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1270,6 +1412,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1279,6 +1422,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1288,6 +1432,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1297,6 +1442,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1306,6 +1452,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1315,6 +1462,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1324,6 +1472,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1333,6 +1482,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1342,6 +1492,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1351,6 +1502,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1360,6 +1512,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1369,6 +1522,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1378,6 +1532,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1387,6 +1542,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1396,6 +1552,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1405,6 +1562,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1414,6 +1572,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1423,6 +1582,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1432,6 +1592,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1441,6 +1602,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1450,6 +1612,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1459,6 +1622,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1468,6 +1632,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1477,6 +1642,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1486,6 +1652,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1495,6 +1662,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1504,6 +1672,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1513,6 +1682,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1522,6 +1692,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1531,6 +1702,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1540,6 +1712,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1549,6 +1722,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1558,6 +1732,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1567,6 +1742,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1576,6 +1752,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1585,6 +1762,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1594,6 +1772,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1603,6 +1782,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1612,6 +1792,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1621,6 +1802,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1630,6 +1812,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1639,6 +1822,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1648,6 +1832,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1657,6 +1842,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1666,6 +1852,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1675,6 +1862,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1684,6 +1872,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1693,6 +1882,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1702,6 +1892,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1711,6 +1902,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1720,6 +1912,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1729,6 +1922,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1738,6 +1932,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1747,6 +1942,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1756,6 +1952,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1765,6 +1962,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1774,6 +1972,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1783,6 +1982,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1792,6 +1992,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1801,6 +2002,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1810,6 +2012,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1819,6 +2022,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1828,6 +2032,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1837,6 +2042,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1846,6 +2052,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1855,6 +2062,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1864,6 +2072,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1873,6 +2082,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1882,6 +2092,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1891,6 +2102,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1900,6 +2112,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1909,6 +2122,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1918,6 +2132,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1927,6 +2142,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1936,6 +2152,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -1945,6 +2162,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1954,6 +2172,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1963,6 +2182,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1972,6 +2192,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1981,6 +2202,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1990,6 +2212,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -1999,6 +2222,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2008,6 +2232,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2017,6 +2242,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2026,6 +2252,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2035,6 +2262,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2044,6 +2272,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2053,6 +2282,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2062,6 +2292,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2071,6 +2302,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2080,6 +2312,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2089,6 +2322,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2098,6 +2332,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2107,6 +2342,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2116,6 +2352,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2125,6 +2362,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2134,6 +2372,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2143,6 +2382,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2152,6 +2392,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2161,6 +2402,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2170,6 +2412,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2179,6 +2422,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2188,6 +2432,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2197,6 +2442,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2206,6 +2452,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2215,6 +2462,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2224,6 +2472,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2233,6 +2482,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2242,6 +2492,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2251,6 +2502,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2260,6 +2512,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2269,6 +2522,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2278,6 +2532,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2287,6 +2542,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2296,6 +2552,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2305,6 +2562,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2314,6 +2572,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2323,6 +2582,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2332,6 +2592,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2341,6 +2602,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2350,6 +2612,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2359,6 +2622,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2368,6 +2632,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2377,6 +2642,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2386,6 +2652,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2395,6 +2662,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2404,6 +2672,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2413,6 +2682,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2422,6 +2692,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2431,6 +2702,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2440,6 +2712,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2449,6 +2722,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2458,6 +2732,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2467,6 +2742,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2476,6 +2752,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2485,6 +2762,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2494,6 +2772,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2503,6 +2782,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2512,6 +2792,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2521,6 +2802,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2530,6 +2812,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2539,6 +2822,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2548,6 +2832,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2557,6 +2842,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2566,6 +2852,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2575,6 +2862,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2584,6 +2872,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2593,6 +2882,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2602,6 +2892,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2611,6 +2902,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2620,6 +2912,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2629,6 +2922,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2638,6 +2932,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2647,6 +2942,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2656,6 +2952,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2665,6 +2962,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2674,6 +2972,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2683,6 +2982,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2692,6 +2992,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2701,6 +3002,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2710,6 +3012,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2719,6 +3022,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2728,6 +3032,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -2737,6 +3042,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2746,6 +3052,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2755,6 +3062,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2764,6 +3072,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2773,6 +3082,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2782,6 +3092,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2791,6 +3102,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2800,6 +3112,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2809,6 +3122,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2818,6 +3132,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2827,6 +3142,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2836,6 +3152,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2845,6 +3162,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2854,6 +3172,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2863,6 +3182,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2872,6 +3192,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2881,6 +3202,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2890,6 +3212,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2899,6 +3222,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2908,6 +3232,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2917,6 +3242,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2926,6 +3252,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2935,6 +3262,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2944,6 +3272,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2953,6 +3282,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2962,6 +3292,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2971,6 +3302,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2980,6 +3312,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2989,6 +3322,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -2998,6 +3332,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3007,6 +3342,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3016,6 +3352,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3025,6 +3362,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3034,6 +3372,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3043,6 +3382,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3052,6 +3392,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3061,6 +3402,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3070,6 +3412,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3079,6 +3422,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3088,6 +3432,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3097,6 +3442,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3106,6 +3452,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3115,6 +3462,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3124,6 +3472,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3133,6 +3482,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3142,6 +3492,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3151,6 +3502,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3160,6 +3512,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3169,6 +3522,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3178,6 +3532,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3187,6 +3542,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3196,6 +3552,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3205,6 +3562,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3214,6 +3572,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3223,6 +3582,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3232,6 +3592,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3241,6 +3602,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3250,6 +3612,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3259,6 +3622,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3268,7 +3632,8 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
-			"showSubtechniques": false
+			"links": [],
+			"showSubtechniques": true
 		},
 		{
 			"techniqueID": "T1484",
@@ -3277,7 +3642,8 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
-			"showSubtechniques": false
+			"links": [],
+			"showSubtechniques": true
 		},
 		{
 			"techniqueID": "T1200",
@@ -3286,6 +3652,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3295,6 +3662,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3304,6 +3672,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3313,6 +3682,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3322,6 +3692,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3331,6 +3702,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3340,6 +3712,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3349,6 +3722,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3358,6 +3732,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3367,6 +3742,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3376,6 +3752,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3385,6 +3762,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3394,6 +3772,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3403,6 +3782,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3412,6 +3792,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3421,6 +3802,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3430,6 +3812,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3439,6 +3822,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3448,6 +3832,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3457,6 +3842,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3466,6 +3852,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3475,6 +3862,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3484,6 +3872,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3493,6 +3882,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3502,6 +3892,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3511,6 +3902,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3520,6 +3912,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3529,6 +3922,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3538,6 +3932,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3547,6 +3942,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3556,6 +3952,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3565,6 +3962,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3574,6 +3972,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3583,6 +3982,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3592,6 +3992,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3601,6 +4002,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3610,6 +4012,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3619,6 +4022,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3628,6 +4032,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3637,6 +4042,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3646,6 +4052,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3655,6 +4062,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3664,6 +4072,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3673,6 +4082,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3682,6 +4092,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3691,6 +4102,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3700,6 +4112,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3709,6 +4122,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3718,6 +4132,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3727,6 +4142,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3736,6 +4152,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3745,6 +4162,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3754,6 +4172,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3763,6 +4182,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3772,6 +4192,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3781,6 +4202,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3790,6 +4212,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3799,6 +4222,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3808,6 +4232,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3817,6 +4242,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3826,6 +4252,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3835,6 +4262,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3844,6 +4272,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3853,6 +4282,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3862,6 +4292,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3871,6 +4302,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3880,6 +4312,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3889,6 +4322,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3898,6 +4332,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3907,6 +4342,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3916,6 +4352,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3925,6 +4362,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3934,6 +4372,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3943,6 +4382,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3952,6 +4392,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -3961,6 +4402,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3970,6 +4412,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3979,6 +4422,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3988,6 +4432,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -3997,6 +4442,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4006,6 +4452,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4015,6 +4462,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4024,6 +4472,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4033,6 +4482,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4042,6 +4492,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4051,6 +4502,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4060,6 +4512,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4069,6 +4522,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4078,6 +4532,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4087,6 +4542,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4096,6 +4552,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4105,6 +4562,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4114,6 +4572,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4123,6 +4582,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4132,6 +4592,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4141,6 +4602,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4150,6 +4612,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4159,6 +4622,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4168,6 +4632,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4177,6 +4642,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4186,6 +4652,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4195,6 +4662,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4204,6 +4672,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4213,6 +4682,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4222,6 +4692,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4231,6 +4702,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4240,6 +4712,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4249,6 +4722,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4258,6 +4732,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4267,6 +4742,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4276,6 +4752,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4285,6 +4762,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4294,6 +4772,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4303,6 +4782,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4312,6 +4792,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4321,6 +4802,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4330,6 +4812,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4339,6 +4822,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4348,6 +4832,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4357,6 +4842,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4366,6 +4852,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4375,6 +4862,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4384,6 +4872,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4393,6 +4882,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4402,6 +4892,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4411,6 +4902,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4420,6 +4912,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4429,6 +4922,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4438,6 +4932,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4447,6 +4942,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4456,6 +4952,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4465,6 +4962,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4474,6 +4972,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4483,6 +4982,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4492,6 +4992,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4501,6 +5002,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4510,6 +5012,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4519,6 +5022,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4528,6 +5032,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4537,6 +5042,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4546,6 +5052,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4555,6 +5062,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4564,6 +5072,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4573,6 +5082,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4582,6 +5092,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4591,6 +5102,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4600,6 +5112,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4609,6 +5122,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4618,6 +5132,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4627,6 +5142,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4636,6 +5152,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4645,6 +5162,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4654,6 +5172,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4663,6 +5182,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4672,6 +5192,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4681,6 +5202,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4690,6 +5212,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4699,6 +5222,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4708,6 +5232,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4717,6 +5242,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4726,6 +5252,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4735,6 +5262,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4744,6 +5272,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4753,6 +5282,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4762,6 +5292,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4771,6 +5302,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4780,6 +5312,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4789,6 +5322,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4798,6 +5332,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4807,6 +5342,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4816,6 +5352,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4825,6 +5362,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4834,6 +5372,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4843,6 +5382,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4852,6 +5392,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4861,6 +5402,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4870,6 +5412,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4879,6 +5422,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4888,6 +5432,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4897,6 +5442,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4906,6 +5452,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4915,6 +5462,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4924,6 +5472,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4933,6 +5482,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4942,6 +5492,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4951,6 +5502,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4960,6 +5512,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4969,6 +5522,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4978,6 +5532,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -4987,6 +5542,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -4996,6 +5552,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5005,6 +5562,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5014,6 +5572,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5023,6 +5582,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5032,6 +5592,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5041,6 +5602,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5050,6 +5612,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5059,6 +5622,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5068,6 +5632,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5077,6 +5642,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5086,6 +5652,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5095,6 +5662,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5104,6 +5672,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5113,6 +5682,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5122,6 +5692,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5131,6 +5702,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5140,6 +5712,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5149,6 +5722,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5158,6 +5732,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5167,6 +5742,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5176,6 +5752,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5185,6 +5762,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5194,6 +5772,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5203,6 +5782,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5212,6 +5792,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5221,6 +5802,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5230,6 +5812,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5239,6 +5822,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5248,6 +5832,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5257,6 +5842,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5266,6 +5852,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5275,6 +5862,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5284,6 +5872,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5293,6 +5882,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5302,6 +5892,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5311,6 +5902,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5320,6 +5912,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5329,6 +5922,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5338,6 +5932,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5347,6 +5942,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5356,6 +5952,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5365,6 +5962,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5374,6 +5972,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5383,6 +5982,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5392,6 +5992,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5401,6 +6002,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5410,6 +6012,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5419,6 +6022,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5428,6 +6032,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5437,6 +6042,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5446,6 +6052,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5455,6 +6062,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5464,6 +6072,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5473,6 +6082,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5482,6 +6092,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5491,7 +6102,8 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
-			"showSubtechniques": false
+			"links": [],
+			"showSubtechniques": true
 		},
 		{
 			"techniqueID": "T1049",
@@ -5500,6 +6112,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5509,6 +6122,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5518,6 +6132,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5527,6 +6142,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5536,6 +6152,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5545,6 +6162,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5554,6 +6172,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5563,6 +6182,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5572,6 +6192,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5581,6 +6202,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5590,6 +6212,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5599,6 +6222,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5608,6 +6232,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5617,6 +6242,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5626,6 +6252,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5635,6 +6262,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5644,6 +6272,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5653,6 +6282,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5662,6 +6292,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5671,6 +6302,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5680,6 +6312,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5689,6 +6322,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5698,6 +6332,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5707,6 +6342,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5716,6 +6352,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5725,6 +6362,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5734,6 +6372,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5743,6 +6382,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5752,6 +6392,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5761,6 +6402,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5770,6 +6412,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5779,6 +6422,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5788,6 +6432,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5797,6 +6442,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5806,6 +6452,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5815,6 +6462,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5824,6 +6472,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5833,6 +6482,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5842,6 +6492,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5851,6 +6502,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5860,6 +6512,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5869,6 +6522,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5878,6 +6532,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5887,6 +6542,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5896,6 +6552,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5905,6 +6562,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5914,6 +6572,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5923,6 +6582,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5932,6 +6592,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5941,6 +6602,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5950,6 +6612,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5959,6 +6622,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5968,6 +6632,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5977,6 +6642,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -5986,6 +6652,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -5995,6 +6662,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -6004,6 +6672,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -6013,6 +6682,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -6022,6 +6692,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -6031,6 +6702,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -6040,6 +6712,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -6049,6 +6722,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -6058,6 +6732,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -6067,6 +6742,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -6076,6 +6752,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -6085,6 +6762,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -6094,6 +6772,7 @@
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -6103,7 +6782,8 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
-			"showSubtechniques": true
+			"links": [],
+			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1136",
@@ -6112,7 +6792,8 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
-			"showSubtechniques": true
+			"links": [],
+			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1070",
@@ -6121,7 +6802,8 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
-			"showSubtechniques": true
+			"links": [],
+			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1027",
@@ -6130,7 +6812,8 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
-			"showSubtechniques": true
+			"links": [],
+			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1057",
@@ -6139,6 +6822,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -6148,6 +6832,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -6157,6 +6842,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -6166,6 +6852,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -6175,6 +6862,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -6184,7 +6872,8 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
-			"showSubtechniques": true
+			"links": [],
+			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1552",
@@ -6193,6 +6882,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -6202,7 +6892,8 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
-			"showSubtechniques": true
+			"links": [],
+			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1087",
@@ -6211,7 +6902,8 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
-			"showSubtechniques": true
+			"links": [],
+			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1071",
@@ -6220,6 +6912,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -6229,6 +6922,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -6238,6 +6932,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -6247,6 +6942,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -6256,6 +6952,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -6265,6 +6962,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -6274,6 +6972,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -6283,7 +6982,8 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
-			"showSubtechniques": true
+			"links": [],
+			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1562",
@@ -6292,7 +6992,8 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
-			"showSubtechniques": true
+			"links": [],
+			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1490",
@@ -6301,6 +7002,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -6310,6 +7012,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -6319,6 +7022,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -6328,6 +7032,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		},
 		{
@@ -6337,6 +7042,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -6346,6 +7052,7 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
 			"showSubtechniques": true
 		},
 		{
@@ -6355,22 +7062,854 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1557.002",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1557.002",
+			"tactic": "collection",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1557.003",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1557.003",
+			"tactic": "collection",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1615",
+			"tactic": "discovery",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.014",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.014",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.015",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.015",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.012",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.012",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.013",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.013",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1564.008",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1564.004",
+			"tactic": "defense-evasion",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1564.010",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1564.009",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1564.007",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1071.001",
+			"tactic": "command-and-control",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1053.006",
+			"tactic": "execution",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1053.006",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1053.006",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1562.001",
+			"tactic": "defense-evasion",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1562.010",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1562.009",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1558.004",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1555.005",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1555.004",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1036.007",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1552.002",
+			"tactic": "credential-access",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1055.015",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1055.015",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1218.013",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1218.014",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1218.012",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1620",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1611",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1021.002",
+			"tactic": "lateral-movement",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1548.002",
+			"tactic": "privilege-escalation",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1548.002",
+			"tactic": "defense-evasion",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1016.001",
+			"tactic": "discovery",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1087.002",
+			"tactic": "discovery",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1087.001",
+			"tactic": "discovery",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1059.007",
+			"tactic": "execution",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1059.001",
+			"tactic": "execution",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1070.001",
+			"tactic": "defense-evasion",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1647",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1204.002",
+			"tactic": "execution",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1606",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1606.002",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1606.001",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1621",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1098.005",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1565.001",
+			"tactic": "impact",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1559.003",
+			"tactic": "execution",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.013",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.013",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.013",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1027.004",
+			"tactic": "defense-evasion",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1027.006",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1553.006",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1553.005",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1573.002",
+			"tactic": "command-and-control",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1614",
+			"tactic": "discovery",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1614.001",
+			"tactic": "discovery",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1569.002",
+			"tactic": "execution",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1505.004",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1505.005",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1136.001",
+			"tactic": "persistence",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1622",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1622",
+			"tactic": "discovery",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1484.002",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1484.002",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1484.001",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1484.001",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1556",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1556.001",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1556.002",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1556.003",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1556.005",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1556.005",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1556.005",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1127.001",
+			"tactic": "defense-evasion",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
 			"showSubtechniques": false
 		}
 	],
 	"gradient": {
 		"colors": [
-			"#ff6666",
-			"#ffe766",
-			"#8ec843"
+			"#ff6666ff",
+			"#ffe766ff",
+			"#8ec843ff"
 		],
 		"minValue": 0,
 		"maxValue": 100
 	},
 	"legendItems": [],
 	"metadata": [],
+	"links": [],
 	"showTacticRowBackground": false,
 	"tacticRowBackground": "#dddddd",
-	"selectTechniquesAcrossTactics": true,
+	"selectTechniquesAcrossTactics": false,
 	"selectSubtechniquesWithParent": false
 }

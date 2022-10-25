@@ -1,8 +1,8 @@
 {
-	"name": "layer",
+	"name": "BlackMatter",
 	"versions": {
 		"attack": "10",
-		"navigator": "4.5.5",
+		"navigator": "4.6.6",
 		"layer": "4.3"
 	},
 	"domain": "enterprise-attack",
@@ -681,7 +681,7 @@
 			"enabled": true,
 			"metadata": [],
 			"links": [],
-			"showSubtechniques": false
+			"showSubtechniques": true
 		},
 		{
 			"techniqueID": "T1547.002",
@@ -7302,6 +7302,16 @@
 			"metadata": [],
 			"links": [],
 			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1548.002",
+			"tactic": "privilege-escalation",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
 		}
 	],
 	"gradient": {
@@ -7318,6 +7328,6 @@
 	"links": [],
 	"showTacticRowBackground": false,
 	"tacticRowBackground": "#dddddd",
-	"selectTechniquesAcrossTactics": true,
+	"selectTechniquesAcrossTactics": false,
 	"selectSubtechniquesWithParent": false
 }
