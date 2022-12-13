@@ -1,0 +1,4 @@
+= LokiBot
+
+A technical report of LokiBot is available at our https://www.basquecybersecurity.eus/[website].
+
