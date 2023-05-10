@@ -1,0 +1,4 @@
+= Royal Ransomware
+ 
+A technical report of Royal is available at our https://www.ciberseguridad.eus/[website].
+
