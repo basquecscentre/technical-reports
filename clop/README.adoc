@@ -1,0 +1,4 @@
+= Clop Ransomware
+ 
+A technical report of Clop is available at our https://www.ciberseguridad.eus/[website].
+

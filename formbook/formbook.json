@@ -1,8 +1,8 @@
 {
-	"name": "layer",
+	"name": "Formbook",
 	"versions": {
 		"attack": "10",
-		"navigator": "4.5.5",
+		"navigator": "4.6.6",
 		"layer": "4.3"
 	},
 	"domain": "enterprise-attack",
@@ -516,7 +516,7 @@
 		{
 			"techniqueID": "T1071",
 			"tactic": "command-and-control",
-			"color": "",
+			"color": "#dadaeb",
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
@@ -656,7 +656,7 @@
 		{
 			"techniqueID": "T1547",
 			"tactic": "persistence",
-			"color": "",
+			"color": "#dadaeb",
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
@@ -666,7 +666,7 @@
 		{
 			"techniqueID": "T1547",
 			"tactic": "privilege-escalation",
-			"color": "",
+			"color": "#dadaeb",
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
@@ -1566,7 +1566,7 @@
 		{
 			"techniqueID": "T1555",
 			"tactic": "credential-access",
-			"color": "",
+			"color": "#dadaeb",
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
@@ -2136,7 +2136,7 @@
 		{
 			"techniqueID": "T1573",
 			"tactic": "command-and-control",
-			"color": "",
+			"color": "#dadaeb",
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
@@ -3676,7 +3676,7 @@
 		{
 			"techniqueID": "T1056",
 			"tactic": "collection",
-			"color": "",
+			"color": "#dadaeb",
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
@@ -3686,7 +3686,7 @@
 		{
 			"techniqueID": "T1056",
 			"tactic": "credential-access",
-			"color": "",
+			"color": "#dadaeb",
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
@@ -4586,7 +4586,7 @@
 		{
 			"techniqueID": "T1566",
 			"tactic": "initial-access",
-			"color": "",
+			"color": "#dadaeb",
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
@@ -4596,7 +4596,7 @@
 		{
 			"techniqueID": "T1566.002",
 			"tactic": "initial-access",
-			"color": "",
+			"color": "#dadaeb",
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
@@ -4606,7 +4606,7 @@
 		{
 			"techniqueID": "T1566.003",
 			"tactic": "initial-access",
-			"color": "",
+			"color": "#dadaeb",
 			"comment": "",
 			"enabled": false,
 			"metadata": [],
@@ -4776,7 +4776,7 @@
 		{
 			"techniqueID": "T1055",
 			"tactic": "defense-evasion",
-			"color": "",
+			"color": "#dadaeb",
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
@@ -4786,7 +4786,7 @@
 		{
 			"techniqueID": "T1055",
 			"tactic": "privilege-escalation",
-			"color": "",
+			"color": "#dadaeb",
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
@@ -6526,7 +6526,7 @@
 		{
 			"techniqueID": "T1204",
 			"tactic": "execution",
-			"color": "",
+			"color": "#dadaeb",
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
@@ -6766,7 +6766,7 @@
 		{
 			"techniqueID": "T1497",
 			"tactic": "defense-evasion",
-			"color": "",
+			"color": "#dadaeb",
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
@@ -6866,7 +6866,7 @@
 		{
 			"techniqueID": "T1102",
 			"tactic": "command-and-control",
-			"color": "",
+			"color": "#dadaeb",
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
@@ -6912,6 +6912,266 @@
 			"metadata": [],
 			"links": [],
 			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1071.004",
+			"tactic": "command-and-control",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1071.001",
+			"tactic": "command-and-control",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.001",
+			"tactic": "persistence",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.001",
+			"tactic": "privilege-escalation",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1185",
+			"tactic": "collection",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1115",
+			"tactic": "collection",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1555.003",
+			"tactic": "credential-access",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1140",
+			"tactic": "defense-evasion",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1573.001",
+			"tactic": "command-and-control",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1041",
+			"tactic": "exfiltration",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1562",
+			"tactic": "defense-evasion",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1056.001",
+			"tactic": "collection",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1056.001",
+			"tactic": "credential-access",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1056.003",
+			"tactic": "collection",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1056.003",
+			"tactic": "credential-access",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1112",
+			"tactic": "defense-evasion",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1566.001",
+			"tactic": "initial-access",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1057",
+			"tactic": "discovery",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1055.012",
+			"tactic": "defense-evasion",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1055.012",
+			"tactic": "privilege-escalation",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1012",
+			"tactic": "discovery",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1113",
+			"tactic": "collection",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1082",
+			"tactic": "discovery",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1204.002",
+			"tactic": "execution",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1497",
+			"tactic": "discovery",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1102.002",
+			"tactic": "command-and-control",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
 		}
 	],
 	"gradient": {
@@ -6929,5 +7189,5 @@
 	"showTacticRowBackground": false,
 	"tacticRowBackground": "#dddddd",
 	"selectTechniquesAcrossTactics": true,
-	"selectSubtechniquesWithParent": true
+	"selectSubtechniquesWithParent": false
 }

@@ -2,7 +2,7 @@
 	"name": "Night Sky",
 	"versions": {
 		"attack": "10",
-		"navigator": "4.5.5",
+		"navigator": "4.6.6",
 		"layer": "4.3"
 	},
 	"domain": "enterprise-attack",
@@ -7302,6 +7302,36 @@
 			"metadata": [],
 			"links": [],
 			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1059.003",
+			"tactic": "execution",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1027.002",
+			"tactic": "defense-evasion",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1204.002",
+			"tactic": "execution",
+			"color": "#dadaeb",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
 		}
 	],
 	"gradient": {

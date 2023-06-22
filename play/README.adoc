@@ -1,0 +1,4 @@
+= Play Ransomware
+ 
+A technical report of Play Ransomware is available at our https://www.ciberseguridad.eus/[website].
+

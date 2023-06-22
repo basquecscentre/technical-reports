@@ -1,4 +1,4 @@
-image::https://www.basquecybersecurity.eus/assets/img/logo1-default.png["Basque Cybersecurity Centre"], link=https://www.basquecybersecurity.eus]
+image::https://www.ciberseguridad.eus/sites/default/files/styles/ultima_noticia/public/2022-05/logo_bcsc_small_1.png.webp["Basque Cybersecurity Centre"], link=https://www.ciberseguridad.eus]
 
 
 This repository contains information related to Basque Cybersecurity Centre investigations and public reports: iocs, yara rules, snort rules, sigma rules and so on.
@@ -13,5 +13,5 @@ This repository contains information related to Basque Cybersecurity Centre inve
 * `.svg` files are https://mitre-attack.github.io/attack-navigator/enterprise/[MITRE Att&ck Navigator] render images including tactics and techniques used by malware. 
 
 
-If you have found false positives https://www.basquecybersecurity.eus/es/bcsc/contacto/[contact us]
+If you have found false positives https://www.ciberseguridad.eus/contacta-con-bcsc[contact us]
   and we will try to improve our IOCs.
