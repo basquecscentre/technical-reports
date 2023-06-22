@@ -1,0 +1,4 @@
+= BianLian Ransomware
+ 
+A technical report of BianLian is available at our https://www.ciberseguridad.eus/[website].
+
