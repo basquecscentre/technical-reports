@@ -1,0 +1,4 @@
+= Mallox Ransomware
+ 
+A technical report of Mallox Ransomware is available at our https://www.ciberseguridad.eus/[website].
+
