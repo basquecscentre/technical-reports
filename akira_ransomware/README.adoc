@@ -1,0 +1,4 @@
+= Akira Ransomware
+ 
+A technical report of Akira is available at our https://www.ciberseguridad.eus/[website].
+
