@@ -1,0 +1,3 @@
+= Medusa Ransomware
+A technical report of Medusa Ransomware is available at our https://www.ciberseguridad.eus/[website].
+
